@@ -1,5 +1,6 @@
 project = "hashicups"
 
+
 app "public-api" {
   labels = {
     "service" = "public-api",
