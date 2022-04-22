@@ -1,5 +1,7 @@
 project = "hashicups"
-# Test
+runner {
+  profile = secondary-cluster-odr
+}
 
 app "public-api" {
   labels = {
