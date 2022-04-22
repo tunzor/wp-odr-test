@@ -1,4 +1,4 @@
-project = "hashicups"
+project = "hashicups2"
 # test
 
 app "public-api" {
