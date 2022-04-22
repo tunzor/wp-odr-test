@@ -3,7 +3,7 @@ project = "hashicups2"
 
 app "public-api" {
   runner {
-    profile = secondary_cluster_odr
+    profile = "secondary_cluster_odr"
   }
   labels = {
     "service" = "public-api",
