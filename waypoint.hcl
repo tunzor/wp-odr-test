@@ -1,7 +1,7 @@
 project = "hashicups"
 # test
 runner {
-  profile = secondary-cluster-odr
+  profile = secondary_cluster_odr
 }
 
 app "public-api" {
