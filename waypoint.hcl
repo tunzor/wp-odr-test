@@ -1,10 +1,10 @@
 project = "hashicups"
 # test
-runner {
-  profile = secondary_cluster_odr
-}
 
 app "public-api" {
+  runner {
+    profile = secondary_cluster_odr
+  }
   labels = {
     "service" = "public-api",
     "env"     = "dev"
