@@ -152,5 +152,11 @@ app "frontend" {
       ]
     }
   }
+  release {
+    use "kubernetes" {
+      load_balancer = true
+      port          = 3000
+    }
+  }
 }
 
